@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-07T08:17:24Z" name="Suite" finished-at="2019-08-07T08:18:06Z" duration-ms="41790">
+    <groups>
+    </groups>
+    <test started-at="2019-08-07T08:17:24Z" name="TestFB" finished-at="2019-08-07T08:17:47Z" duration-ms="22833">
+      <class name="com.TestRunner.FacebookTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:24Z" name="beforeClass" finished-at="2019-08-07T08:17:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:24Z" name="beforeMethodClass" finished-at="2019-08-07T08:17:29Z" duration-ms="5346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="facebook()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:29Z" name="facebook" finished-at="2019-08-07T08:17:47Z" duration-ms="17468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:47Z" name="close" finished-at="2019-08-07T08:17:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:47Z" name="afterClass" finished-at="2019-08-07T08:17:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.TestRunner.FacebookTest -->
+    </test> <!-- TestFB -->
+    <test started-at="2019-08-07T08:17:47Z" name="TestAmazon" finished-at="2019-08-07T08:18:06Z" duration-ms="18887">
+      <class name="com.TestRunner.AmazonTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:24Z" name="beforeSuite" finished-at="2019-08-07T08:17:24Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:47Z" name="beforeMethodClass" finished-at="2019-08-07T08:17:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:47Z" name="beforeClass" finished-at="2019-08-07T08:17:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="amazon()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:47Z" name="amazon" finished-at="2019-08-07T08:18:06Z" duration-ms="18885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:18:06Z" name="close" finished-at="2019-08-07T08:18:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:18:06Z" name="afterClass" finished-at="2019-08-07T08:18:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:18:06Z" name="afterSuite" finished-at="2019-08-07T08:18:08Z" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.TestRunner.AmazonTest -->
+    </test> <!-- TestAmazon -->
+  </suite> <!-- Suite -->
+</testng-results>
