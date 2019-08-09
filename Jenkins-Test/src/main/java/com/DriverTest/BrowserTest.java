@@ -18,8 +18,6 @@ public class BrowserTest {
 			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.manage().deleteAllCookies();
-			//<a name="Login Page"</a>
 			driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS);
 		}
@@ -30,7 +28,7 @@ public class BrowserTest {
 		if(driver==null){
 			if(browserName.equalsIgnoreCase("chrome")){
 				System.out.println("in chrome");
-				System.setProperty("webdriver.chrome.driver", "chromedriver");
+				System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 				driver=new ChromeDriver();
 				driver.manage().window().maximize();
 				driver.manage().deleteAllCookies();

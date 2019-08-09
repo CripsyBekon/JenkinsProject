@@ -1,65 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-07T08:17:24Z" name="Suite" finished-at="2019-08-07T08:18:06Z" duration-ms="41790">
+  <suite started-at="2019-08-09T04:35:39Z" name="Suite" finished-at="2019-08-09T04:46:07Z" duration-ms="627402">
     <groups>
     </groups>
-    <test started-at="2019-08-07T08:17:24Z" name="TestFB" finished-at="2019-08-07T08:17:47Z" duration-ms="22833">
-      <class name="com.TestRunner.FacebookTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:24Z" name="beforeClass" finished-at="2019-08-07T08:17:24Z" duration-ms="0" status="PASS">
+    <test started-at="2019-08-09T04:35:39Z" name="TestRegister" finished-at="2019-08-09T04:36:08Z" duration-ms="28452">
+      <class name="com.TestRunner.TestRegister">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.TestRegister@4f83df68]" started-at="2019-08-09T04:35:39Z" name="beforeClass" finished-at="2019-08-09T04:35:39Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:24Z" name="beforeMethodClass" finished-at="2019-08-07T08:17:29Z" duration-ms="5346" status="PASS">
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.TestRegister@4f83df68]" started-at="2019-08-09T04:35:39Z" name="beforeMethodClass" finished-at="2019-08-09T04:35:44Z" duration-ms="4803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodClass -->
-        <test-method signature="facebook()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:29Z" name="facebook" finished-at="2019-08-07T08:17:47Z" duration-ms="17468" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:com.TestRunner.TestRegister@4f83df68]" started-at="2019-08-09T04:35:44Z" name="testLogin" finished-at="2019-08-09T04:36:08Z" duration-ms="23629" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebook -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:47Z" name="close" finished-at="2019-08-07T08:17:47Z" duration-ms="1" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.TestRegister@4f83df68]" started-at="2019-08-09T04:36:08Z" name="close" finished-at="2019-08-09T04:36:08Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.FacebookTest@4f83df68]" started-at="2019-08-07T08:17:47Z" name="afterClass" finished-at="2019-08-07T08:17:47Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.TestRegister@4f83df68]" started-at="2019-08-09T04:36:08Z" name="afterClass" finished-at="2019-08-09T04:36:08Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.TestRunner.FacebookTest -->
-    </test> <!-- TestFB -->
-    <test started-at="2019-08-07T08:17:47Z" name="TestAmazon" finished-at="2019-08-07T08:18:06Z" duration-ms="18887">
-      <class name="com.TestRunner.AmazonTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:24Z" name="beforeSuite" finished-at="2019-08-07T08:17:24Z" duration-ms="10" status="PASS">
+      </class> <!-- com.TestRunner.TestRegister -->
+    </test> <!-- TestRegister -->
+    <test started-at="2019-08-09T04:36:08Z" name="TestCheckout" finished-at="2019-08-09T04:38:11Z" duration-ms="123523">
+      <class name="com.TestRunner.TestCheckout">
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.TestCheckout@1aafa419]" started-at="2019-08-09T04:36:08Z" name="beforeMethodClass" finished-at="2019-08-09T04:36:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.TestCheckout@1aafa419]" started-at="2019-08-09T04:36:08Z" name="beforeClass" finished-at="2019-08-09T04:36:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="xCartTest()[pri:0, instance:com.TestRunner.TestCheckout@1aafa419]" started-at="2019-08-09T04:36:08Z" name="xCartTest" finished-at="2019-08-09T04:38:11Z" duration-ms="123523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xCartTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.TestCheckout@1aafa419]" started-at="2019-08-09T04:38:11Z" name="close" finished-at="2019-08-09T04:38:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.TestCheckout@1aafa419]" started-at="2019-08-09T04:38:11Z" name="afterClass" finished-at="2019-08-09T04:38:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.TestRunner.TestCheckout -->
+    </test> <!-- TestCheckout -->
+    <test started-at="2019-08-09T04:38:11Z" name="TestGuestCheckout" finished-at="2019-08-09T04:41:05Z" duration-ms="173732">
+      <class name="com.TestRunner.TestGuestCheckout">
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.TestGuestCheckout@76505305]" started-at="2019-08-09T04:38:11Z" name="beforeMethodClass" finished-at="2019-08-09T04:38:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.TestGuestCheckout@76505305]" started-at="2019-08-09T04:38:11Z" name="beforeClass" finished-at="2019-08-09T04:38:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="guestCheckout()[pri:0, instance:com.TestRunner.TestGuestCheckout@76505305]" started-at="2019-08-09T04:38:11Z" name="guestCheckout" finished-at="2019-08-09T04:41:05Z" duration-ms="173732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckout -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.TestGuestCheckout@76505305]" started-at="2019-08-09T04:41:05Z" name="afterClass" finished-at="2019-08-09T04:41:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.TestGuestCheckout@76505305]" started-at="2019-08-09T04:41:05Z" name="close" finished-at="2019-08-09T04:41:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.TestRunner.TestGuestCheckout -->
+    </test> <!-- TestGuestCheckout -->
+    <test started-at="2019-08-09T04:41:05Z" name="TestRegisterDuringCheckout" finished-at="2019-08-09T04:42:17Z" duration-ms="71538">
+      <class name="com.TestRunner.TestRegisterDuringCheckout">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.TestRegisterDuringCheckout@59474f18]" started-at="2019-08-09T04:41:05Z" name="beforeClass" finished-at="2019-08-09T04:41:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.TestRegisterDuringCheckout@59474f18]" started-at="2019-08-09T04:41:05Z" name="beforeMethodClass" finished-at="2019-08-09T04:41:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="registerGuestCheckout()[pri:0, instance:com.TestRunner.TestRegisterDuringCheckout@59474f18]" started-at="2019-08-09T04:41:05Z" name="registerGuestCheckout" finished-at="2019-08-09T04:42:17Z" duration-ms="71534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerGuestCheckout -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.TestRegisterDuringCheckout@59474f18]" started-at="2019-08-09T04:42:17Z" name="afterClass" finished-at="2019-08-09T04:42:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.TestRegisterDuringCheckout@59474f18]" started-at="2019-08-09T04:42:17Z" name="close" finished-at="2019-08-09T04:42:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.TestRunner.TestRegisterDuringCheckout -->
+    </test> <!-- TestRegisterDuringCheckout -->
+    <test started-at="2019-08-09T04:42:17Z" name="TestPostPurchaseUserFeatures" finished-at="2019-08-09T04:44:23Z" duration-ms="126471">
+      <class name="com.TestRunner.PostPurchaseUserFeatures">
+        <test-method signature="registeredUserFeatTest()[pri:0, instance:com.TestRunner.PostPurchaseUserFeatures@33d512c1]" started-at="2019-08-09T04:42:17Z" name="registeredUserFeatTest" finished-at="2019-08-09T04:44:23Z" duration-ms="126471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserFeatTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.PostPurchaseUserFeatures@33d512c1]" started-at="2019-08-09T04:42:17Z" name="beforeClass" finished-at="2019-08-09T04:42:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.PostPurchaseUserFeatures@33d512c1]" started-at="2019-08-09T04:42:17Z" name="beforeMethodClass" finished-at="2019-08-09T04:42:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.PostPurchaseUserFeatures@33d512c1]" started-at="2019-08-09T04:44:23Z" name="close" finished-at="2019-08-09T04:44:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.PostPurchaseUserFeatures@33d512c1]" started-at="2019-08-09T04:44:23Z" name="afterClass" finished-at="2019-08-09T04:44:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.TestRunner.PostPurchaseUserFeatures -->
+    </test> <!-- TestPostPurchaseUserFeatures -->
+    <test started-at="2019-08-09T04:44:23Z" name="TestCartFunctions" finished-at="2019-08-09T04:46:07Z" duration-ms="103498">
+      <class name="com.TestRunner.TestCartFunctions">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:35:39Z" name="beforeSuite" finished-at="2019-08-09T04:35:39Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:47Z" name="beforeMethodClass" finished-at="2019-08-07T08:17:47Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:44:23Z" name="beforeMethodClass" finished-at="2019-08-09T04:44:23Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:47Z" name="beforeClass" finished-at="2019-08-07T08:17:47Z" duration-ms="0" status="PASS">
+        <test-method signature="xCartTest()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:44:23Z" name="xCartTest" finished-at="2019-08-09T04:46:07Z" duration-ms="103498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xCartTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:44:23Z" name="beforeClass" finished-at="2019-08-09T04:44:23Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="amazon()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:17:47Z" name="amazon" finished-at="2019-08-07T08:18:06Z" duration-ms="18885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:18:06Z" name="close" finished-at="2019-08-07T08:18:06Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:18:06Z" name="afterClass" finished-at="2019-08-07T08:18:06Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:46:07Z" name="afterClass" finished-at="2019-08-09T04:46:07Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TestRunner.AmazonTest@1aafa419]" started-at="2019-08-07T08:18:06Z" name="afterSuite" finished-at="2019-08-07T08:18:08Z" duration-ms="2314" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:46:07Z" name="close" finished-at="2019-08-09T04:46:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TestRunner.TestCartFunctions@618b19ad]" started-at="2019-08-09T04:46:07Z" name="afterSuite" finished-at="2019-08-09T04:46:07Z" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.TestRunner.AmazonTest -->
-    </test> <!-- TestAmazon -->
+      </class> <!-- com.TestRunner.TestCartFunctions -->
+    </test> <!-- TestCartFunctions -->
   </suite> <!-- Suite -->
 </testng-results>

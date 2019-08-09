@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test name="TestRegister">
+  <classes>
+  <class name="com.TestRunner.TestRegister"/>
+  </classes>
+  </test>
+  <test name="TestCheckout">
+  <classes>
+  <class name="com.TestRunner.TestCheckout"/>
+  </classes>
+  </test>
+  <test name="TestGuestCheckout">
+  <classes>
+  <class name="com.TestRunner.TestGuestCheckout"/>
+  </classes>
+  </test>
+    <test name="RegisterDuringCheckout">
+  <classes>
+  <class name="com.TestRunner.TestRegisterDuringCheckout"/>
+  </classes>
+  </test>
+  </suite>

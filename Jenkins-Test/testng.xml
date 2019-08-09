@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="1" verbose="1" annotations="JDK" parallel="tests">
-<test name="TestFB">
+<test name="TestRegister">
   <classes>
-  <class name="com.TestRunner.FacebookTest"/>
+  <class name="com.TestRunner.TestRegister"/>
   </classes>
   </test>
-  <test name="TestAmazon">
+  <test name="TestCheckout">
   <classes>
-  <class name="com.TestRunner.AmazonTest"/>
+  <class name="com.TestRunner.TestCheckout"/>
   </classes>
   </test>
+   <test name="TestGuestCheckout">
+  <classes>
+  <class name="com.TestRunner.TestGuestCheckout"/>
+  </classes>
+  </test> 
+   <test name="TestRegisterDuringCheckout">
+  <classes>
+  <class name="com.TestRunner.TestRegisterDuringCheckout"/>
+  </classes>
+  </test> 
+   <test name="TestPostPurchaseUserFeatures">
+  <classes>
+  <class name="com.TestRunner.PostPurchaseUserFeatures"/>
+  </classes>
+  </test> 
+   <test name="TestCartFunctions">
+  <classes>
+  <class name="com.TestRunner.TestCartFunctions"/>
+  </classes>
+  </test>  
  </suite>

@@ -40,11 +40,10 @@ public class TestHierarchy {
 
 	@AfterClass
 	public void afterClass(){
- 
 	}
 
 	@AfterSuite
 	public void afterSuite() throws IOException, EmailException{
-		driver.close();
+		driver.quit();
 	}		
 }
